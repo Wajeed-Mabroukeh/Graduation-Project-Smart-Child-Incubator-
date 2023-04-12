@@ -1,0 +1,51 @@
+name: wajeed_s_application4
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  provider: ^6.0.5
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  flutter_svg_provider: ^1.0.3
+  intl: ^0.17.0
+  flutter_screenutil: ^5.7.0
+  get: ^4.6.5
+  flutter_easyloading: ^3.0.5
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Metamorphous
+      fonts: 
+        - asset: assets/fonts/Metamorphous.ttf
+          weight: 400
+    - family: Rubik
+      fonts: 
+        - asset: assets/fonts/RubikMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RubikRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RubikLight.ttf
+          weight: 300
+        - asset: assets/fonts/RubikRomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RubikRomanLight.ttf
+          weight: 300
+        - asset: assets/fonts/RubikRomanBold.ttf
+          weight: 700
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoMedium.ttf
+          weight: 500
+    - family: Overpass
+      fonts: 
+        - asset: assets/fonts/OverpassRegular.ttf
+          weight: 400
